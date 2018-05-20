@@ -1,0 +1,18 @@
+Documentación Semántico:
+	+ EmpujarFalsoNakhaan: Agrega un valor falso a la pila para empezar un switch.
+	+ BotePilaNakhaan: Deja la pila de cada switch como estaba.
+	+ RevisarDefault: Revisa que se tenga solo un default.
+	+ InicializarVariableReturn: Inicializa la variable de verificar los returns e activa la variable de función para saber que se usa una función.
+	+ RevisarReturnFuncion: Revisa al final de una función si tenía return.
+	+ RevisarQueSeUseFuncion: Revisa que el return se use sólo en funciones o procedimientos.
+	+ RevisarCuerpoParaFuncion: Revisa que el return tenga cuerpo en una función.
+	+ RevisarCuerpoParaProc: Revisa que el return opcional en el procedimiento no tenga valor.
+	+ InicializarVariableProc: Indica que se utiliza un procedimiento.
+	+ QuitarIdentificadoresProc: Indica que ya se salió de un procedimiento.
+	+ GuardarNombreFunc: Guarda el nombre de una función para un posible reporte de error.
+	+ GuardarNombreProc: Guarda el nombre de un procedimiento para un posible reporte de error.
+	+ RevisarUsoBloques: Se dedica a revisar que los bloque no se encuentren en cualquier parte del código que no sea de ifs, while ... 
+	+ ActivarSecuenciadores: Activa la posibilidad de usar un secuenciador si se encuentra un ciclo.
+	+ DesactivarSecuenciadores: Desactiva los secuenciadores al salir de los ciclos.
+	+ RevisarSecuenciadores: Revisa antes de usar un break o continue que se encuentre bajo un contexto en el que se permitan los secuenciadores.
+	
